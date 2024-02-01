@@ -6,8 +6,8 @@
         $phone= $_POST['phone'];
         $website= $_POST['website'];
         $msg= $_POST['msg'];
-        $toMail = "khanzishan910@gmail.com";
-        $toSubject = "Mail From Inquiry Form From Swiffysoft";
+        $toMail = "alexjohn@gmail.com";
+        $toSubject = "Mail From Inquiry Form From website";
         $headers = ['From' => $email, 'Reply-To' => $email, 'Content-type' => 'text/html; charset=utf-8'];
         $paragraph = '<html>
                             <head></head>
